@@ -1,0 +1,36 @@
+@media screen and (prefers-color-scheme: light) {
+    :root {
+        --font-color: #080e12;
+        --font-color-hover: #edf3f8;
+        --background: #edf3f8;
+        --background-invert: #070d12;
+        --primary: #294765;
+        --secondary: #8e84cd;
+        --accent: #9271cb;
+    }
+}
+
+@media screen and (prefers-color-scheme: dark) {
+    :root {
+        --font-color: #edf3f7;
+        --font-color-hover: #070d12;
+        --background: #070d12;
+        --background-invert: #a9a9a9;
+        --primary: #9ab8d6;
+        --secondary: #554c91;
+        --accent: #7d58bb;
+    }
+}
+
+:root {
+    --font-size: 16px;
+    --medium-font-size: 18px;
+    --larger-font-size: 22px;
+    --largest-font-size: 24px;
+    --header-font-size: 32px;
+    --border-radius: 15px;
+    --small-border-radius: 10px;
+    --font-family: "Poppins";
+    --bold-font-weight: 500;
+    --shadow: 2px 2px 15px var(--background-invert);
+}
